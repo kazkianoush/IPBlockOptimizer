@@ -9,6 +9,10 @@ IPBlockOptimizer optimizes the allocation of IP blocks to Autonomous Systems usi
  in a way where you optimize network performance / security while not giving bias towards any
  of the AS's?
 
+## Next Steps
+
+adding a field to each AS to specify the number of IP allocations they want, and then incorporating that factor into the the decision making.
+
 ## Installation
 ```bash
 git clone https://github.com/kazkianoush/IPBlockOptimizer.git
@@ -16,6 +20,3 @@ cd IPBlockOptimizer
 python IPAllocToSMP.py
 
 
-## Next Steps
-
-adding a field to each AS to specify the number of IP allocations they want, and then incorporating that factor into the the decision making.
