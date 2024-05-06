@@ -14,3 +14,8 @@ IPBlockOptimizer optimizes the allocation of IP blocks to Autonomous Systems usi
 git clone https://github.com/kazkianoush/IPBlockOptimizer.git
 cd IPBlockOptimizer
 python IPAllocToSMP.py
+
+
+## Next Steps
+
+adding a field to each AS to specify the number of IP allocations they want, and then incorporating that factor into the the decision making.
